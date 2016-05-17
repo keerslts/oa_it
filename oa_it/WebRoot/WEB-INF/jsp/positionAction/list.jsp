@@ -29,8 +29,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<s:property value="id"/>   <!-- ognl表达式 -->
 			<s:property value="name"/> 
 			<s:property value="description"/> 
-			<s:a action="role_delete?id=%{id}" onclick="return confirm('确定要删除么，亲？')">删除</s:a>	
-			<s:a action="role_editUI?id=%{id}">修改</s:a>
+			<s:a action="position_delete?id=%{id}" onclick="return confirm('确定要删除么，亲？')">删除</s:a>	
+			<s:a action="position_editUI?id=%{id}">修改</s:a>
 			<br/>
 			</s:iterator>
 
